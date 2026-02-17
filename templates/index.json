@@ -1,10 +1,12 @@
 {
   "sections": {
-    "hero": {
-      "type": "hero-video"
-    }
+    "hero": { "type": "hero-video" },
+    "products": { "type": "featured-products" },
+    "parallax": { "type": "parallax-banner" }
   },
   "order": [
-    "hero"
+    "hero",
+    "products",
+    "parallax"
   ]
 }

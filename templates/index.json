@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "hero-section",
+      "settings": {
+        "title": "Geleceğin Mağazasına Hoş Geldiniz"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

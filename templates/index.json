@@ -10,3 +10,15 @@
     "parallax"
   ]
 }
+{
+  "sections": {
+    "hero": { "type": "hero-video" },
+    "marquee": { "type": "text-marquee" },
+    "grid": { "type": "featured-grid" }
+  },
+  "order": [
+    "hero",
+    "marquee",
+    "grid"
+  ]
+}

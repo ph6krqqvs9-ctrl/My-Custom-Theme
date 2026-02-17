@@ -1,35 +1,10 @@
-<!doctype html>
-<html lang="{{ request.locale.iso_code }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page_title }}</title>
-  {{ content_for_header }}
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
-  <style>
-    body { font-family: 'Inter', sans-serif; margin: 0; background: #0b0b0b; color: #fff; overflow-x: hidden; }
-    header { padding: 20px; display: flex; justify-content: space-between; align-items: center; position: absolute; width: 100%; z-index: 10; }
-    .logo { font-weight: bold; font-size: 1.5rem; letter-spacing: -1px; }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="logo">PLANEGOSA.STUDIO</div>
-    <nav>TASARIM • TEKNOLOJİ • HIZ</nav>
-  </header>
-
-  <main role="main">
-    {{ content_for_layout }}
-  </main>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      AOS.init({ duration: 1000, once: false });
-    });
-  </script>
-</body>
-</html>
+{
+  "sections": {
+    "hero": {
+      "type": "hero-video"
+    }
+  },
+  "order": [
+    "hero"
+  ]
+}
